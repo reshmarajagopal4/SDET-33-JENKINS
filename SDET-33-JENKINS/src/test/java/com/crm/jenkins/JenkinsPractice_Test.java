@@ -12,6 +12,7 @@ public class JenkinsPractice_Test {
 		
 	String browser = System.getProperty("BROWSER");
 	String url=System.getProperty("URL");
+	Reporter.log(browser+url);
 		
 	Reporter.log("jenkins started",true);
 	
