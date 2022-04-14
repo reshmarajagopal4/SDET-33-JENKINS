@@ -8,14 +8,14 @@ public class JenkinsPractice_Test {
 	
 	public void jenkinsPracticeTest_1() {
 		
-	Reporter.log("jenkins started");
+	Reporter.log("jenkins started",true);
 	
 	
 	}
 	@Test
 	public void jenkinsPracticeTest_2() {
 		
-		Reporter.log("jenkins ended");
+		Reporter.log("jenkins ended",true);
 		
 	}
 
